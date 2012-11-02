@@ -1,0 +1,5 @@
+content  layoutPlan                   chrome/content/
+locale   layoutPlan     en-US         chrome/locale/en-US/
+locale   layoutPlan     zh-CN         chrome/locale/zh-CN/
+
+overlay  chrome://browser/content/browser.xul   chrome://layoutPlan/content/overlay-browser.xul

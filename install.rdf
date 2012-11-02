@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>layoutPlan@mozillaonline.com</em:id>
+		<em:version>0.0.1</em:version>
+		<em:name>Layout Plan</em:name>
+		<em:description>Layout Plan in Firefox.</em:description>
+		<em:contributor>Jiao Feng</em:contributor>
+		<em:homepageURL>http://weibo.com/blogjiaofeng</em:homepageURL>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>4.0</em:minVersion>
+				<em:maxVersion>19.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		
+		<em:localized>
+			<Description>
+				<em:locale>zh-CN</em:locale>
+				<em:name>火狐界面定制助手</em:name>
+				<em:description>方便定制火狐界面布局</em:description>
+			</Description>
+		</em:localized>
+				
+	</Description>
+</RDF>

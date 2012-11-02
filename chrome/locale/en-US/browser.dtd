@@ -1,0 +1,13 @@
+<!ENTITY menuInTitlebar.label "Menu In Titlebar">
+<!ENTITY menuInTitlebar.accesskey "I">
+
+<!ENTITY layout-plan.label "Reset Toolbar Layout">
+
+<!ENTITY layout-plan-default.label "Default">
+<!ENTITY layout-plan-default.tooltiptext "Default Layout">
+
+<!ENTITY layout-plan-classic.label "Classic">
+<!ENTITY layout-plan-classic.tooltiptext "Firefox 3.6 Style">
+
+<!ENTITY layout-plan-china.label "China">
+<!ENTITY layout-plan-china.tooltiptext "Favorites in China">

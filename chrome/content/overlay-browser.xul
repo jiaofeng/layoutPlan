@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE window [
+<!ENTITY % layoutPlanDTD SYSTEM "chrome://layoutplan/locale/browser.dtd">
+%layoutPlanDTD;
+<!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd" >
+%browserDTD;
+]>
+<overlay id="layoutPlan" xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/javascript" src="chrome://layoutplan/content/overlay-browser.js" />
+  <commandset id="mainCommandSet">
+    <command id="cmd_ToggleMenuInTitlebar" label="&menuInTitlebar.label;" accesskey="&menuInTitlebar.accesskey;" oncommand="menuInTitlebar.toggle()"/>
+  </commandset>
+  <menupopup id="appmenu_customizeMenu">
+    <menuitem command="cmd_ToggleMenuInTitlebar" type="checkbox" insertafter="appmenu_toggleToolbarsSeparator"/>
+  </menupopup>
+  <toolbar id="toolbar-menubar">
+    <toolbarbutton id="menubar-placeholder" hidden="true"/>
+  </toolbar>
+
+  <toolbaritem id="menubar-items" context="toolbar-context-menu"/>
+  
+  <menupopup id="toolbar-context-menu">
+    <menuseparator/>
+    <menu id="layout-plan" label="&layout-plan.label;">
+      <menupopup id="layout-plan-popup" >
+        <menuitem label="&layout-plan-default.label;" tooltiptext="&layout-plan-default.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="default"/>
+        <menuitem label="&layout-plan-classic.label;" tooltiptext="&layout-plan-classic.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="classic"/>
+        <menuitem label="&layout-plan-china.label;" tooltiptext="&layout-plan-china.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="china"/>
+      </menupopup>
+    </menu>
+  </menupopup>
+  <menupopup id="appmenu_customizeMenu">
+    <menuitem id="appmenu_toolbarLayout" removeelement="true" />
+    <splitmenu id="layout-plan" label="&appMenuToolbarLayout.label;" command="cmd_CustomizeToolbars">
+      <menupopup id="layout-plan-popup" >
+        <menuitem label="&layout-plan-default.label;" tooltiptext="&layout-plan-default.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="default"/>
+        <menuitem label="&layout-plan-classic.label;" tooltiptext="&layout-plan-classic.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="classic"/>
+        <menuitem label="&layout-plan-china.label;" tooltiptext="&layout-plan-china.tooltiptext;" oncommand="layoutPlan.setup(event)" plan="china"/>
+      </menupopup>
+    </splitmenu>
+  </menupopup>
+</overlay>

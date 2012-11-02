@@ -1,0 +1,13 @@
+<!ENTITY menuInTitlebar.label "标题栏上显示菜单">
+<!ENTITY menuInTitlebar.accesskey "I">
+
+<!ENTITY layout-plan.label "重置工具栏布局">
+
+<!ENTITY layout-plan-default.label "默认布局">
+<!ENTITY layout-plan-default.tooltiptext "火狐默认布局">
+
+<!ENTITY layout-plan-classic.label "复古怀旧">
+<!ENTITY layout-plan-classic.tooltiptext "火狐3.6风格">
+
+<!ENTITY layout-plan-china.label "中国风">
+<!ENTITY layout-plan-china.tooltiptext "中国用户的最爱">
