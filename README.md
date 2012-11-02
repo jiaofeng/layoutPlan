@@ -1,0 +1,4 @@
+layoutPlan
+==========
+
+firefox layout plan.
