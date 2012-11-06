@@ -9,5 +9,5 @@
 <!ENTITY layout-plan-classic.label "Classic">
 <!ENTITY layout-plan-classic.tooltiptext "Firefox 3.6 Style">
 
-<!ENTITY layout-plan-china.label "China">
-<!ENTITY layout-plan-china.tooltiptext "Favorites in China">
+<!ENTITY layout-plan-china.label "China Style">
+<!ENTITY layout-plan-china.tooltiptext "Favorites in china">
