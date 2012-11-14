@@ -149,7 +149,7 @@ var layoutPlan = {
     this.setupTabsbar(plan);
     var set = this.setupNavbar(plan);
     this.setupPersonalbar(plan,set);
-    this.setupAddonbar(plan);
+//    this.setupAddonbar(plan);
     BrowserToolboxCustomizeDone(true);
     this.dispatchCustomizeDoneEvent();
     menuInTitlebar.syncUI();

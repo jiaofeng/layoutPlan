@@ -5,7 +5,7 @@
 
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>layoutPlan@mozillaonline.com</em:id>
-		<em:version>0.0.1</em:version>
+		<em:version>1.0.1</em:version>
 		<em:name>Layout Plan</em:name>
 		<em:description>Layout Plan in Firefox.</em:description>
 		<em:contributor>Jiao Feng</em:contributor>
